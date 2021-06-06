@@ -13,7 +13,15 @@ def quick_sort(arr):
             smaller_element.append(item)
 
     return quick_sort(smaller_element)+[pivot]+quick_sort(grater_element)
-if __name__ == "__main__":
-    arr = list(map(int,input().split()))
-    sorted_arr = quick_sort(arr)
-    print(sorted_arr)
+
+def row_wise(m):
+    for i in range(len(m)):
+        temp = m[i]
+        x = quick_sort(temp)
+        m[i] = x
+    return m
+
+m = [[9, 8, 7, 1 ],[7, 3, 0, 2],[9, 5, 3, 2],[ 6, 3, 1, 2 ]]
+
+y = row_wise(m)
+print(y)
