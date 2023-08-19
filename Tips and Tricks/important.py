@@ -26,4 +26,12 @@ arr = [1,2,3,4]
 print(str[::-1])
 print(arr[::-1])
 
+#find max and min value 
+print(max(2,3))  # --->3
+print(min(2,3))  # --->2
+
+arr = [2,3,1,5,6,7]
+print(max(arr))
+print(min(arr))
+
 
