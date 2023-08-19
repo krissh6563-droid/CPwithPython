@@ -1,5 +1,4 @@
-#User function Template for python3
-
+# User function Template for python3
 def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -15,7 +14,8 @@ def quick_sort(arr):
         else:
             item_smaller.append(item)
     return quick_sort(item_smaller) + [pivot] + quick_sort(item_greater)
-    
+
+
 def kthSmallest(arr, l, r, k):
     '''
     arr : given array
@@ -26,21 +26,17 @@ def kthSmallest(arr, l, r, k):
     '''
     sorted_array = quick_sort(arr)
     return sorted_array[k-1]
-    
-
-
 
 
 #  Driver Code Starts
-#Initial Template for Python 3
+# Initial Template for Python 3
 
-#contributed by RavinderSinghPB
-if __name__ == '__main__': 
-    import random 
-    t=int(input())
+# contributed by RavinderSinghPB
+if __name__ == '__main__':
+    import random
+    t = int(input())
     for tcs in range(t):
-        n=int(input())
-        arr=list(map(int,input().strip().split()))
-        k=int(input())
+        n = int(input())
+        arr = list(map(int, input().strip().split()))
+        k = int(input())
         print(kthSmallest(arr, 0, n-1, k))
-        
