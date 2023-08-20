@@ -1,7 +1,6 @@
-from sys import maxint
 def maxSubArraySum(a, size):
 
-    max_so_far = -maxint - 1
+    max_so_far = 0
     max_ending_here = 0
 
     for i in range(0, size):

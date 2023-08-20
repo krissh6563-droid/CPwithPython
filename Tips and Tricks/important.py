@@ -34,4 +34,14 @@ arr = [2,3,1,5,6,7]
 print(max(arr))
 print(min(arr))
 
+#Permutation and combination
+# nPr = (n!) / (n-r)!
+# nCr = (n!) / r!(n-r)!
 
+#Convert decimal to binary
+x = 2
+print(bin(x).replace("0b",""))
+
+#Convert binary to decimal
+x = '10'
+print(int(x,2))
