@@ -9,8 +9,6 @@ class Node:
         return str(self.info)
 
 # create a binary search tree class
-
-
 class BinarySearchTree:
     def __init__(self):
         self.root = None
@@ -36,8 +34,7 @@ class BinarySearchTree:
                         break
                 else:
                     break
-
-
+                
 # preorder traversal
 def preOrder(root):
     if root:
@@ -46,14 +43,11 @@ def preOrder(root):
         preOrder(root.right)
 
 # postorder traversal
-
-
 def postOrder(root):
     if root:
         postOrder(root.left)
         postOrder(root.right)
         print(root.info)
-
 
 # def inorder traversal
 def inOrder(root):
@@ -61,7 +55,6 @@ def inOrder(root):
         inOrder(root.left)
         print(root.info)
         inOrder(root.right)
-
 
 tree = BinarySearchTree()
 n = int(input())
