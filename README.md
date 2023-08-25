@@ -19,3 +19,20 @@
 * list.sort() - sort the list
 * list.reverse() - reverse the element in the list
 * list.copy() - make a copy of the list
+
+## OOPS in Python
+* Object-Oriented Programming is a programming paradigm based on the concept of "objects"
+
+### object 
+ * Object is a realtime entity i.e
+
+### class
+* Blueprint of a object
+* It is a logical entity
+
+### methods
+* Block of code that perform a particular task
+
+### Inheritance 
+* One class can inherit the properties and methods of another class
+* In OOPS inheritance provide the idea of reusability. This meand we can add additional features to an existing class without modufying it
