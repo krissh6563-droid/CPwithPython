@@ -38,12 +38,12 @@
 * In OOPS inheritance provide the idea of reusability. This meand we can add additional features to an existing class without modufying it
 * Types of inheritance in python 
     - Single Inheritance
-    * When one class inherit the properties and method of another class
+        * When one class inherit the properties and method of another class
     - Multiple Inheritance 
-    * When a class inherit the properties and methods from two or more class
+        * When a class inherit the properties and methods from two or more class
     - Multilevel Inheritance
-    * When there is child and grand child relationship between class
+        * When there is child and grand child relationship between class
     - Hierarchical Inheritance 
-    * When more than one derived class are created from a single base this type of inheritance is called hierarchical inheritance
+        * When more than one derived class are created from a single base this type of inheritance is called hierarchical inheritance
     - Hybrid Inheritance
-    * Inheritance consisting of multiple types of inheritance is called hybrid inheritance.
+        * Inheritance consisting of multiple types of inheritance is called hybrid inheritance.
