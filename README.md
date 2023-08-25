@@ -62,6 +62,10 @@
 
 ### Polymophism
 * It means having many forms
+* Types of Polymorphism
+1. Compile time polymorphism or static (Method Overloading + Operator overloading)
+2. Runtime polymorphism(method overriding)
+* Polymorphism is supported in Python via method overriding and operator overloading. However, Python does not support method overloading in the classic sense.
 
 ### Encapsulation
 * Wrapping the data and method into a single entity is called encapsulation
