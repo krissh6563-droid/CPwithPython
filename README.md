@@ -1,3 +1,11 @@
+# Python Programming
+* Python is a high-level, general-purpose programming language
+* It also support object oriented paradigm
+* Python is dynamically typed(interpreter assigns a type to all the variables at run-time.) and garbage-collected(Garbage collection is to release memory when the object is no longer in use. ).
+* Easy to use and write
+* Syntax are shorter than any other programming language
+
+
 # Data Structure with Python
 ## List 
 * List is a Data Structure which is used to store multiple items in a single varialble
@@ -37,13 +45,23 @@
 * One class can inherit the properties and methods of another class
 * In OOPS inheritance provide the idea of reusability. This meand we can add additional features to an existing class without modufying it
 * Types of inheritance in python 
-    - Single Inheritance
+    1. Single Inheritance
         * When one class inherit the properties and method of another class
-    - Multiple Inheritance 
+    2. Multiple Inheritance 
         * When a class inherit the properties and methods from two or more class
-    - Multilevel Inheritance
+    3. Multilevel Inheritance
         * When there is child and grand child relationship between class
-    - Hierarchical Inheritance 
+    4. Hierarchical Inheritance 
         * When more than one derived class are created from a single base this type of inheritance is called hierarchical inheritance
-    - Hybrid Inheritance
+    5. Hybrid Inheritance
         * Inheritance consisting of multiple types of inheritance is called hybrid inheritance.
+
+### Abstraction 
+* Abstraction is used to hide internal details and show only functionalities
+* 
+
+### Polymophism
+* It means having many forms
+
+### Encapsulation
+* Wrapping the data and method into a single entity is called encapsulation
