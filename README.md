@@ -57,8 +57,11 @@
         * Inheritance consisting of multiple types of inheritance is called hybrid inheritance.
 
 ### Abstraction 
-* Abstraction is used to hide internal details and show only functionalities
-* 
+* Abstraction is used to hide the internal functionality of the function from the users.
+* The users only interact with the basic implementation of the function, but inner working is hidden.
+* User is familiar with that "what function does" but they don't know "how it does
+* In Python, abstraction can be achieved by using abstract classes and interfaces
+
 
 ### Polymophism
 * It means having many forms
@@ -69,3 +72,5 @@
 
 ### Encapsulation
 * Wrapping the data and method into a single entity is called encapsulation
+* Encapsulation can be achieved by declaring the data members and methods of a class either as private or protected.
+
