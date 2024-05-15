@@ -130,7 +130,7 @@ class Person(Base):
 * Wrapping the data and method into a single entity is called encapsulation
 * Encapsulation can be achieved by declaring the data members and methods of a class either as private or protected.
 * We can declare method and variable as Protected by using single underscore ( _ ) and for Private we can use double underscore ( __ )
-* ![access-specifiers-in-python-encapsulation-1024x590](https://github.com/krissh6563-droid/CPwithPython/assets/56572543/9417352e-eea7-4e37-ac18-12e4c76f584c)
+ ![access-specifiers-in-python-encapsulation-1024x590](https://github.com/krissh6563-droid/CPwithPython/assets/56572543/9417352e-eea7-4e37-ac18-12e4c76f584c)
 
 
 ## Decorator 
@@ -174,17 +174,7 @@ print(next(result))
 * Pickling is a way to convert a Python object (list, dictionary, etc.) into a byte stream.
 * Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk.
 
-## Lambda Function
-* A lambda function is a small anonymous function.
-* A lambda function can take any number of arguments, but can only have one expression.
-* Syntax
-```
-lambda arguments : expression
-```
-* Example
-```
-x = lambda a : a + 10
-print(x(5))
-```
 
-## 
+
+
+
