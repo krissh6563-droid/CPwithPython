@@ -55,8 +55,6 @@ thisdict = {
 }
 ```
 
-
-
 ## OOPS in Python
 * Object-Oriented Programming is a programming paradigm based on the concept of "objects"
 
@@ -84,6 +82,20 @@ thisdict = {
         * When more than one derived class are created from a single base this type of inheritance is called hierarchical inheritance
     5. Hybrid Inheritance
         * Inheritance consisting of multiple types of inheritance is called hybrid inheritance.
+```
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+class Student(Person):
+  pass
+x = Student("Mike", "Olsen")
+x.printname()
+```
 
 ### Abstraction 
 * Abstraction is used to hide the internal functionality of the function from the users.
@@ -105,8 +117,6 @@ class Person(Base):
 
 ```
 
-
-
 ### Polymophism
 * It means having many forms
 * Types of Polymorphism
@@ -118,4 +128,49 @@ class Person(Base):
 * Wrapping the data and method into a single entity is called encapsulation
 * Encapsulation can be achieved by declaring the data members and methods of a class either as private or protected.
 * We can declare method and variable as Protected by using single underscore ( _ ) and for Private we can use double underscore ( __ )
+
+## Decorator 
+* Decorators are a powerful and elegant feature in Python that allows you to modify or extend the behavior of functions or methods without changing their actual code
+* Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it.
+
+```
+def outer(func):
+    def inner():
+        print("I got decorated")
+        func()
+    return inner
+
+@outer
+def ordinary():
+    print("I am ordinary function")
+ordinary()
+```
+
+## Generator
+* A generator in Python is a function that return an iterator using Yield keyword
+```
+def my_function(a,b):
+    yield a
+    yield b
+    
+result = my_function(10,20)
+print(result)
+print(next(result))
+print(next(result))
+```
+* Output
+```
+<generator object my_function at 0x7cc7e7d0b100>
+10
+20
+```
+
+## Pickling 
+* In Python, we sometimes need to save the object on the disk for later use. This can be done by using Python pickle
+* Pickling is a way to convert a Python object (list, dictionary, etc.) into a byte stream.
+* Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk.
+
+
+
+
 
