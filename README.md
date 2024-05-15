@@ -91,6 +91,21 @@ thisdict = {
 * User is familiar with that "what function does" but they don't know "how it does
 * In Python, abstraction can be achieved by using abstract classes and interfaces
 
+```
+from abc import ABC, abstractmethod
+
+class Base(ABC):
+    @abstractmethod
+    def my_function():
+        pass
+    
+class Person(Base):
+    def my_function():
+        print("This is abstract method")
+
+```
+
+
 
 ### Polymophism
 * It means having many forms
@@ -102,4 +117,6 @@ thisdict = {
 ### Encapsulation
 * Wrapping the data and method into a single entity is called encapsulation
 * Encapsulation can be achieved by declaring the data members and methods of a class either as private or protected.
+* We can declare method and variable as Protected by using single underscore ( _ ) and for Private we can use double underscore ( __ )
+* Protected member can be acce
 
