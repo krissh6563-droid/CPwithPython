@@ -55,6 +55,8 @@ thisdict = {
 }
 ```
 
+## String 
+
 ## OOPS in Python
 * Object-Oriented Programming is a programming paradigm based on the concept of "objects"
 
@@ -172,7 +174,17 @@ print(next(result))
 * Pickling is a way to convert a Python object (list, dictionary, etc.) into a byte stream.
 * Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk.
 
+## Lambda Function
+* A lambda function is a small anonymous function.
+* A lambda function can take any number of arguments, but can only have one expression.
+* Syntax
+```
+lambda arguments : expression
+```
+* Example
+```
+x = lambda a : a + 10
+print(x(5))
+```
 
-
-
-
+## 
