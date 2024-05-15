@@ -128,6 +128,8 @@ class Person(Base):
 * Wrapping the data and method into a single entity is called encapsulation
 * Encapsulation can be achieved by declaring the data members and methods of a class either as private or protected.
 * We can declare method and variable as Protected by using single underscore ( _ ) and for Private we can use double underscore ( __ )
+* ![access-specifiers-in-python-encapsulation-1024x590](https://github.com/krissh6563-droid/CPwithPython/assets/56572543/9417352e-eea7-4e37-ac18-12e4c76f584c)
+
 
 ## Decorator 
 * Decorators are a powerful and elegant feature in Python that allows you to modify or extend the behavior of functions or methods without changing their actual code
