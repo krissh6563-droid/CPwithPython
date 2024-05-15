@@ -47,11 +47,13 @@
 * Dictionary items are ordered, changeable, and do not allow duplicates.
 * Dictionary can store multiple type of data in a single varialble.
 
-``` thisdict = {
+``` 
+thisdict = {
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964
-}```
+}
+```
 
 
 
