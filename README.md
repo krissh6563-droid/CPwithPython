@@ -118,5 +118,4 @@ class Person(Base):
 * Wrapping the data and method into a single entity is called encapsulation
 * Encapsulation can be achieved by declaring the data members and methods of a class either as private or protected.
 * We can declare method and variable as Protected by using single underscore ( _ ) and for Private we can use double underscore ( __ )
-* Protected member can be acce
 
