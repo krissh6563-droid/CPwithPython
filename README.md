@@ -28,6 +28,33 @@
 * list.reverse() - reverse the element in the list
 * list.copy() - make a copy of the list
 
+## Tuple 
+* Tuple is a Data Structure which is used to store multiple items in a single varialble
+* List are ordered, unchangable and allow duplicate data items
+* List can store multiple type of data in a single varialble
+
+``` mytuple = (1,"Krishna" 3.0 4,True)```
+
+## Set
+* Set is a Data Structure which is used to store multiple items in a single varialble
+* Set are unordered, unchangable and don't allow duplicate data items
+* Set can store multiple type of data in a single varialble
+
+``` myset = {"apple", "banana", "cherry"}```
+
+## Dictionary
+* Dictionary is a Data Structure which is used to store multiple items in a single varialble
+* Dictionary items are ordered, changeable, and do not allow duplicates.
+* Dictionary can store multiple type of data in a single varialble.
+
+``` thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+} ```
+
+
+
 ## OOPS in Python
 * Object-Oriented Programming is a programming paradigm based on the concept of "objects"
 
