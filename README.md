@@ -5,6 +5,73 @@
 * Easy to use and write
 * Syntax are shorter than any other programming language
 
+# Important Tricks in Python
+* take multiple inputs in one line separated by space
+```
+arr = list(map(int,input().split()))
+```
+
+* take two input in the same line
+```
+a, b  = input().split()
+a = int(a)
+b = int(b)
+print(a,b)
+```
+
+* ASCII value
+```
+a = 97
+b = 98
+A = 65
+B = 66
+```
+
+* how to print ASCII value
+```
+print(ord('a'))
+```
+
+* how to print character from ASCII
+```
+print(chr(97))
+```
+
+* reversing list and string in python 
+```
+str = "Krishan"
+arr = [1,2,3,4]
+print(str[::-1])
+print(arr[::-1])
+```
+
+* find max and min value 
+```
+print(max(2,3))  # --->3
+print(min(2,3))  # --->2
+arr = [2,3,1,5,6,7]
+print(max(arr))
+print(min(arr))
+```
+
+* Permutation and combination
+```
+nPr = (n!) / (n-r)!
+nCr = (n!) / r!(n-r)!
+```
+
+* Convert decimal to binary
+```
+x = 2
+print(bin(x).replace("0b",""))
+```
+
+* Convert binary to decimal
+```
+x = '10'
+print(int(x,2))
+```
+
 
 # Data Structure with Python
 ## List 
@@ -56,6 +123,10 @@ thisdict = {
 ```
 
 ## String 
+* Collection of character is called string.
+* Strings in Python are “immutable” which means they can not be changed after they are created.
+* In python Strings and tuples are immutable, while lists, dictionaries, and sets are mutable.
+
 
 ## OOPS in Python
 * Object-Oriented Programming is a programming paradigm based on the concept of "objects"
@@ -227,6 +298,31 @@ os.remove("demofile.txt")
 * Truncate 
 * Flush
 * Writelines
+
+## Exceptional Handling
+* When an error occurs, or exception as we call it, Python will normally stop and generate an error message.These exceptions can be handled using the try statement
+* The try block lets you test a block of code for errors.
+* The except block lets you handle the error.
+* The else block lets you execute code when there is no error.
+* The finally block lets you execute code, regardless of the result of the try- and except blocks.
+```
+try:
+  print(x)
+except:
+  print("Something went wrong")
+else:
+  print("Nothing went wrong")
+finally:
+  print("The 'try except' is finished")
+```
+## Memory Managment
+* Garbage collection is a process in which the interpreter frees up the memory when not in use to make it available for other objects.
+* Assume a case where no reference is pointing to an object in memory i.e. it is not in use so, the virtual machine has a garbage collector that automatically deletes that object from the heap memory.
+* Stack Memory - Reference Variable, Methods Calls
+* Heap - Value Object
+
+
+
 
 
 
