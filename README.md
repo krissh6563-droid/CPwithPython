@@ -174,6 +174,60 @@ print(next(result))
 * Pickling is a way to convert a Python object (list, dictionary, etc.) into a byte stream.
 * Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk.
 
+## File Handling
+
+### File Operations
+* Create :- To create a file we use open() method 
+```
+file = open('myfile.txt', 'x')
+file.close()
+```
+```
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+
+"x" - Create - Creates the specified file, returns an error if the file exists
+```
+
+* Open 
+```
+file = open('myfile.txt', 'w')
+file.close()
+```
+
+* Read 
+```
+f = open("demofile.txt", "r")
+print(f.read())
+```
+
+* Write
+```
+f = open("demofile2.txt", "a")
+f.write("Now the file has more content!")
+f.close()
+```
+
+* Close 
+```
+f = open("demofile.txt", "r")
+print(f.readline())
+f.close()
+```
+
+* Delete
+```
+import os
+os.remove("demofile.txt")
+```
+
+* Truncate 
+* Flush
+* Writelines
+
 
 
 
