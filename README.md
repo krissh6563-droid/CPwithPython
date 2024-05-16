@@ -201,7 +201,8 @@ class Person(Base):
 * Wrapping the data and method into a single entity is called encapsulation
 * Encapsulation can be achieved by declaring the data members and methods of a class either as private or protected.
 * We can declare method and variable as Protected by using single underscore ( _ ) and for Private we can use double underscore ( __ )
- ![access-specifiers-in-python-encapsulation-1024x590](https://github.com/krissh6563-droid/CPwithPython/assets/56572543/9417352e-eea7-4e37-ac18-12e4c76f584c)
+![access_modifier](https://github.com/krissh6563-droid/CPwithPython/assets/56572543/4d599ea4-111d-41b3-a70b-1da991e445c7)
+
 
 
 ## Decorator 
@@ -244,6 +245,8 @@ print(next(result))
 * In Python, we sometimes need to save the object on the disk for later use. This can be done by using Python pickle
 * Pickling is a way to convert a Python object (list, dictionary, etc.) into a byte stream.
 * Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk.
+![Pickling](https://github.com/krissh6563-droid/CPwithPython/assets/56572543/c126b46b-ea36-42ad-8f41-8882c6edec1c)
+
 
 ## File Handling
 
@@ -315,11 +318,14 @@ else:
 finally:
   print("The 'try except' is finished")
 ```
+![exceptional handling](https://github.com/krissh6563-droid/CPwithPython/assets/56572543/930c4ee6-af51-4935-98f5-7a32ad7bd651)
+
 ## Memory Managment
 * Garbage collection is a process in which the interpreter frees up the memory when not in use to make it available for other objects.
 * Assume a case where no reference is pointing to an object in memory i.e. it is not in use so, the virtual machine has a garbage collector that automatically deletes that object from the heap memory.
 * Stack Memory - Reference Variable, Methods Calls
 * Heap - Value Object
+![memory_management](https://github.com/krissh6563-droid/CPwithPython/assets/56572543/2d0b415b-2e10-497d-9c11-294bbe9bcd81)
 
 
 
