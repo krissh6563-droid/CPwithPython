@@ -5,6 +5,17 @@
 * Easy to use and write
 * Syntax are shorter than any other programming language
 
+## What is PIP and how do you use it? 
+* PIP is a Python package manager that’s used to simplify the installation and management of third-party libraries. Some of the tasks it enables you to do include: 
+1. Installing packages with the command pip install package_name 
+2. Specifying versions with the command pip install package_name==version
+3. Upgrading packages with the command pip install --upgrade package_name 
+4. Uninstalling packages with the command pip uninstall package_name
+5. Listing installed packages with the command pip list
+6. Installing packages from a requirements.txt file with the command pip install -r requirements.txt
+
+
+
 # Important Tricks in Python
 * take multiple inputs in one line separated by space
 ```
@@ -79,7 +90,9 @@ print(int(x,2))
 * List are ordered, changable and allow duplicate data items
 * List can store multiple type of data in a single varialble
 
-``` mylist = [1,"Krishna" 3.0 4,True]```
+``` 
+mylist = [1,"Krishna" 3.0 4,True]
+```
 
 >Imortant list function
 
@@ -100,14 +113,18 @@ print(int(x,2))
 * List are ordered, unchangable and allow duplicate data items
 * List can store multiple type of data in a single varialble
 
-``` mytuple = (1,"Krishna" 3.0 4,True)```
+``` 
+mytuple = (1,"Krishna" 3.0 4,True)
+```
 
 ## Set
 * Set is a Data Structure which is used to store multiple items in a single varialble
 * Set are unordered, unchangable and don't allow duplicate data items
 * Set can store multiple type of data in a single varialble
 
-``` myset = {"apple", "banana", "cherry"}```
+``` 
+myset = {"apple", "banana", "cherry"}
+```
 
 ## Dictionary
 * Dictionary is a Data Structure which is used to store multiple items in a single varialble
